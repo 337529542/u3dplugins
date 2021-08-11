@@ -40,7 +40,7 @@ public class AddLod : EditorWindow
 
         EditorGUILayout.LabelField("********* LOD设置工具 *********");
 
-        loddistance = EditorGUILayout.FloatField("LOD 值：", 0.01f);
+        loddistance = EditorGUILayout.FloatField("LOD 值：", loddistance);
         EditorGUILayout.Space(20);
 
         EditorGUILayout.BeginHorizontal();
